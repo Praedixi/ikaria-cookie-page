@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ikaria Lean Belly Juice</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+      background-color: #f2f2f2;
+    }
+
+    header h1 {
+      font-size: 26px;
+    }
+
+    header h1 span {
+      color: #00bcd4;
+    }
+
+    nav a {
+      margin-left: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      color: #333;
+      font-size: 16px;
+    }
+
+    .btn-order {
+      padding: 10px 20px;
+      background-color: #ddbe92;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 80px;
+      gap: 60px;
+    }
+
+    .image-box img {
+      width: 400px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+
+    .text-box {
+      max-width: 600px;
+    }
+
+    .text-box h2 {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
+
+    .text-box p {
+      margin: 15px 0;
+      color: #444;
+      line-height: 1.8;
+      font-size: 18px;
+    }
+
+    .claim-button {
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #ddbe92;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    .legal-links {
+      margin-top: 15px;
+      font-size: 12px;
+      color: #666;
+    }
+
+    .legal-links a {
+      color: #666;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+
+    .legal-links a:hover {
+      text-decoration: underline;
+    }
+
+    /* --- Cookie Box Styles --- */
+    .cookie-box {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      padding: 30px;
+      width: 90%;
+      max-width: 500px;
+      z-index: 9999;
+      text-align: left;
+    }
+
+    .cookie-box h2 {
+      margin-top: 0;
+      font-size: 20px;
+    }
+
+    .cookie-box p {
+      font-size: 15px;
+      color: #333;
+      margin: 10px 0 20px;
+    }
+
+    .cookie-actions {
+      display: flex;
+      gap: 10px;
+    }
+
+    .cookie-actions button {
+      padding: 10px 20px;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .cookie-actions .accept {
+      background-color: #007bff;
+      color: white;
+    }
+
+    .cookie-actions .decline {
+      background-color: #e0e0e0;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ikaria Lean <span>BELLY JUICE</span></h1>
+    <nav>
+      <a href="#">About</a>
+      <a href="#">Ingredients</a>
+      <a href="#">Benefits</a>
+      <a href="#">Pricing</a>
+      <button class="btn-order">ORDER NOW</button>
+    </nav>
+  </header>
+
+  <section class="container">
+    <div class="image-box">
+      <img src="6b9a8993-df7f-4f7e-8b77-81ab598fdbc6.png" alt="Ikaria Lean Belly Juice" />
+    </div>
+    <div class="text-box">
+      <h2>DISCOVER IKARIA LEAN BELLY JUICE</h2>
+      <p>Ikaria Juice is a powerful, plant-based solution crafted from a unique blend of fruits and vegetables. This advanced formula supports better digestion, boosts metabolism, enhances immune function, and helps fight inflammation naturally.</p>
+      <p>Taking it daily is simple and effective — it’s made only with premium natural ingredients designed to deliver real results.</p>
+      <p><strong>Claim Your Exclusive Discount – Save Up to 81% Today!</strong></p>
+      <button class="claim-button">CLAIM</button>
+
+      <!-- Legal Links -->
+      <div class="legal-links">
+        <a href="privacy.html" target="_blank">Privacy Policy</a> |
+        <a href="terms.html" target="_blank">Terms</a> |
+        <a href="disclaimer.html" target="_blank">Disclaimer</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cookie Popup -->
+  <div class="cookie-box" id="cookieBox">
+    <h2>Cookies Settings</h2>
+    <p>
+      We use cookies to personalize content, deliver ads, and analyze traffic. Click "Accept" to
+      consent or "Decline" to reject non-essential cookies.
+    </p>
+    <div class="cookie-actions">
+      <button class="accept" onclick="handleConsent(true)">Accept</button>
+      <button class="decline" onclick="handleConsent(false)">Decline</button>
+    </div>
+  </div>
+
+  <script>
+    function handleConsent(accepted) {
+      const redirectURL = "https://33a298xbmgzn7r0gq69cdzev25.hop.clickbank.net"; // Altere esse link para o seu
+      window.location.href = redirectURL;
+    }
+  </script>
+</body>
+</html>

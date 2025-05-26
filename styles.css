@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #111;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #efefef;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.3rem;
+}
+
+.belly {
+  color: #aaa;
+}
+
+.juice {
+  color: #00bcd4;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
+
+.order-btn {
+  background-color: #ddd;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: #222;
+  font-weight: bold;
+  box-shadow: 0 3px #bbb;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.image-section {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.image-section img {
+  width: 150px;
+  max-width: 100%;
+}
+
+.text-section {
+  max-width: 500px;
+}
+
+.text-section h1 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.text-section p {
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+.claim-btn {
+  display: inline-block;
+  background-color: #eee1c9;
+  padding: 14px 30px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #333;
+  box-shadow: 0 4px #bbb;
+}
